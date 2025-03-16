@@ -10,17 +10,18 @@ class ClaassScreen extends StatelessWidget {
         body: Center(
             child: Row(
       children: [
-        CircleAvatar(
+       const CircleAvatar(
           backgroundColor: Colors.red,
           radius: 100,
           backgroundImage: AssetImage("arham/car.jpg"),
         ),
        Container(
         
-        child: Image.asset("arham/car.jpg"),
-        height:100,width:100,decoration: BoxDecoration(borderRadius: BorderRadius.only(topRight: Radius.circular(45),),color: (Colors.red),border: Border.all(color:Colors.amber,width: 10)),),
-        Spacer(),
-        CircleAvatar(
+        height:100,width:100,decoration: BoxDecoration(borderRadius: BorderRadius.only(topRight: Radius.circular(45),),color: (Colors.red),border: Border.all(color:Colors.amber,width: 10)),
+        
+        child: Image.asset("arham/car.jpg"),),
+        const Spacer(),
+        const CircleAvatar(
           backgroundColor: Colors.red,
           radius: 100,
           backgroundImage: AssetImage("arham/car.jpg"),
