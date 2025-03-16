@@ -6,6 +6,12 @@ main() {
   runApp(MyApp());
 }
 
+
+
+
+
+
+
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
 
@@ -81,15 +87,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Baloo"
       ),
-      // home: LandingScreen(),
-      // home: CounterScreen(),
-      // home: ListViewScreen(),
-      // home: ProductCardScreen(),
-      // home: ProfileScreen(),
-      // home: ListViewDemo(),
-      // home: ColorSectionScreen(),
       home: TodoTaskScreen(),
-      // home: ResponsiveDesignScreen(),
  );
   }
 }
