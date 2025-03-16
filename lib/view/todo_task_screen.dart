@@ -109,6 +109,7 @@ class _TodoTaskScreenState extends State<TodoTaskScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green.shade200,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
@@ -118,7 +119,7 @@ class _TodoTaskScreenState extends State<TodoTaskScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Todo App",
+                    "Todo App!",
                     style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                   ),
                   if (todoList.isNotEmpty)
