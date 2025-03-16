@@ -109,7 +109,7 @@ class _TodoTaskScreenState extends State<TodoTaskScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green.shade200,
+      backgroundColor: Colors.blue.shade100,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
